@@ -1,10 +1,10 @@
 .footer {
     width: 1184px;
-    height: 18px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,8 +22,10 @@
 @media screen and (max-width: 320px) {
     .footer {
         width: 186px;
-        height: 310px;
         flex-direction: column;
         margin-left: 16px;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        margin-right: 0;
     }
 }

@@ -1,7 +1,6 @@
 .intro {
     margin: 92px 442px 0 148px;
     width: 690px;
-    height: 429px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,7 +17,6 @@
         margin-top: 88px;
         margin-bottom: 88px;
         width: 720px;
-        height: 429px;
     }
 }
 
@@ -29,7 +27,6 @@
         margin-left: 16px;
         margin-right: 16px;
         width: 288px;
-        height: 754px;
     }
 
 }

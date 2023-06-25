@@ -5,9 +5,5 @@
     text-align: left;
     margin: 0;
     padding: 0;
-}
-
-.intro_list a {
-    text-decoration: none;
-    font-weight: 400;
+    list-style: none;
 }
