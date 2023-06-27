@@ -5,11 +5,12 @@
     max-width: 560px;
     text-align: center;
     align-self: center;
-    z-index: 3;
+    z-index: 1;
     margin: 0;
+    color: #ffffff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 505px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
