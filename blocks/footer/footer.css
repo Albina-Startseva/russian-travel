@@ -1,5 +1,5 @@
 .footer {
-    
+    max-width: 1184px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,23 +9,24 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-   
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 786px) {
     .footer {
-      
+      max-width: 720px;
+      padding-bottom: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 621px) {
     .footer {
-      
+        max-width: 186px;
         flex-direction: column;
         margin-left: 16px;
         align-items: flex-start;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         margin-right: 0;
     }
 }
