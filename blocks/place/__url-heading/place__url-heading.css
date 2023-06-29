@@ -5,19 +5,9 @@
     color: #AAAAAA;
     margin-bottom: 12px;
     letter-spacing: 2px;
+    margin-top: 0;
 }
 
-@media screen and (max-width: 786px) {
-    .place__url-heading {
-        margin-top: 46px;
-    }
-}
 
-@media screen and (max-width: 767px) {
-    .place__url-heading {
-        margin-top: 0;
-        
-    }
-}
 
 
